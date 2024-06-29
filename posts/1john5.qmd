@@ -1,12 +1,12 @@
 ---
-title: 1jean3
+title: 1Jean5
 author: ''
 date: '2024-06-24'
-slug: 1jean3
+slug: 1jean5
 categories: []
 tags: [jean]
 params:
-  refs: 1John3
+  refs: 1John5
   refs_after: Rom1:1
   version: SG21
 ---

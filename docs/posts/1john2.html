@@ -9,7 +9,7 @@
 <meta name="author" content="">
 <meta name="dcterms.date" content="2024-06-24">
 
-<title>john_letters - 1jean3</title>
+<title>john_letters - 1Jean2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,9 +62,39 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="floating nav-fixed">
@@ -72,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">john_letters</span>
     </a>
   </div>
@@ -82,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="../about.html">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -109,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">1jean3</h1>
+<h1 class="title">1Jean2</h1>
 </div>
 
 
@@ -132,10 +164,10 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="cell">
 <div class="cell-output-display">
-<div class="bcv" id="1John3!SG21@bgw">
+<div class="bcv" id="1John2!SG21@bgw">
 <p class="vod">
-<span class="verse">3&nbsp;Voyez quel amour le Père nous a témoigné pour que nous soyons appelés enfants de Dieu! [Et nous le sommes!] Si le monde ne vous connaît pas, c'est qu'il ne l'a pas connu, lui.  2&nbsp;Bien-aimés, nous sommes maintenant enfants de Dieu, et ce que nous serons un jour n'a pas encore été révélé. [Mais] nous savons que, lorsque Christ apparaîtra, nous serons semblables à lui parce que nous le verrons tel qu'il est.  3&nbsp;Toute personne qui possède cette espérance en lui se purifie comme lui-même est pur.4&nbsp;Tous ceux qui pratiquent le péché violent la loi, puisque le péché, c’est la violation de la loi.  5&nbsp;Or, vous le savez, Jésus est apparu pour enlever nos péchés et il n'y a pas de péché en lui.  6&nbsp;Ceux qui demeurent en lui ne pèchent pas; si quelqu’un pèche, il ne l'a pas vu et ne l'a pas connu.7&nbsp;Petits enfants, que personne ne vous égare. Celui qui pratique la justice est juste comme Christ lui-même est juste.  8&nbsp;Celui qui pratique le péché est du diable, car le diable pèche dès le commencement. Or, c’est pour détruire les œuvres du diable que le Fils de Dieu est apparu.9&nbsp;Quiconque est né de Dieu ne pratique pas le péché, parce que la semence de Dieu demeure en lui et il ne peut pas pécher, parce qu'il est né de Dieu.  10&nbsp;C'est à cela que l’on reconnaît les enfants de Dieu et les enfants du diable: celui qui ne pratique pas la justice n'est pas de Dieu, tout comme celui qui n'aime pas son frère.  11&nbsp;En effet, le message qui vous a été annoncé et que vous avez entendu dès le commencement, c'est que nous devons nous aimer les uns les autres.  12&nbsp;N’imitons pas Caïn: il était du mal et il a tué son frère. Et pourquoi l’a-t-il tué? Parce que sa manière d’agir était mauvaise tandis que celle de son frère était juste.  13&nbsp;Ne vous étonnez pas, mes frères et sœurs, si le monde vous déteste.  14&nbsp;Quant à nous, nous savons que nous sommes passés de la mort à la vie parce que nous aimons les frères et sœurs. Celui qui n'aime pas [son frère] reste dans la mort.  15&nbsp;Tout homme qui déteste son frère est un meurtrier, et vous savez qu'aucun meurtrier n'a la vie éternelle en lui.16&nbsp;Voici comment nous avons connu l'amour: Christ a donné sa vie pour nous; nous aussi, nous devons donner notre vie pour les frères et sœurs.  17&nbsp;Si quelqu’un qui possède les biens de ce monde voit son frère dans le besoin et lui ferme son cœur, comment l'amour de Dieu peut-il demeurer en lui?18&nbsp;Petits enfants, n'aimons pas en paroles et avec la langue, mais en actes et avec vérité.  19&nbsp;Par là nous saurons que nous sommes de la vérité et nous rassurerons notre cœur devant lui.  20&nbsp;En effet, même si notre cœur nous condamne, Dieu est plus grand que notre cœur et il connaît tout.21&nbsp;Bien-aimés, si notre cœur ne nous condamne pas, nous avons de l'assurance devant Dieu.  22&nbsp;Quoi que nous demandions, nous le recevons de lui, parce que nous gardons ses commandements et faisons ce qui lui est agréable.  23&nbsp;Et voici quel est son commandement: c’est que nous croyions au nom de son Fils Jésus-Christ et que nous nous aimions les uns les autres, comme il [nous] l’a ordonné.  24&nbsp;Celui qui garde ses commandements demeure en Dieu et Dieu demeure en lui; et nous reconnaissons qu'il demeure en nous à l'Esprit qu'il nous a donné.</span>
-<span class="ref">1 Jean 3</span>
+<span class="verse">2&nbsp;Mes petits enfants, je vous écris cela afin que vous ne péchiez pas. Mais si quelqu'un a péché, nous avons un défenseur auprès du Père, Jésus-Christ le juste.  2&nbsp;Il est lui-même la victime expiatoire pour nos péchés, et non seulement pour les nôtres, mais aussi pour ceux du monde entier.3&nbsp;Si nous gardons les commandements de Christ, nous savons par là que nous l'avons connu.  4&nbsp;Celui qui prétend l’avoir connu alors qu’il ne garde pas ses commandements est un menteur, et la vérité n'est pas en lui.  5&nbsp;Mais l'amour de Dieu est vraiment parfait en celui qui garde sa parole: c'est à cela que nous reconnaissons que nous sommes en lui.  6&nbsp;Celui qui affirme demeurer en Christ doit aussi vivre comme il a lui-même vécu.7&nbsp;Frères et sœurs, ce n'est pas un commandement nouveau que je vous écris, mais un commandement ancien, celui que vous avez reçu depuis le début. Ce commandement ancien, c’est la parole que vous avez entendue [dès le commencement].  8&nbsp;Toutefois, c'est aussi un commandement nouveau que je vous écris; sa nouveauté se vérifie en lui et en vous, car les ténèbres se dissipent et la vraie lumière brille déjà.9&nbsp;Celui qui prétend être dans la lumière tout en détestant son frère est encore dans les ténèbres.  10&nbsp;Celui qui aime son frère reste dans la lumière, et il n'y a en lui rien qui puisse le faire trébucher.  11&nbsp;En revanche, celui qui déteste son frère est dans les ténèbres; il marche dans les ténèbres, sans savoir où il va, parce que les ténèbres ont aveuglé ses yeux.12&nbsp;Je vous écris, petits enfants, parce que vos péchés vous sont pardonnés à cause de son nom.  13&nbsp;Je vous écris, pères, parce que vous connaissez celui qui est dès le commencement. Je vous écris, jeunes gens, parce que vous avez vaincu le mauvais. Je vous écris, petits enfants, parce que vous connaissez le Père.  14&nbsp;Je vous ai écrit, pères, parce que vous connaissez celui qui est dès le commencement. Je vous ai écrit, jeunes gens, parce que vous êtes forts, que la parole de Dieu demeure en vous et que vous avez vaincu le mauvais.15&nbsp;N'aimez pas le monde ni ce qui est dans le monde. Si quelqu'un aime le monde, l'amour du Père n'est pas en lui.  16&nbsp;En effet, tout ce qui est dans le monde – la convoitise qui est dans l’homme, la convoitise des yeux et l’orgueil dû aux richesses – vient non du Père, mais du monde.  17&nbsp;Or le monde passe, sa convoitise aussi, mais celui qui fait la volonté de Dieu demeure éternellement.18&nbsp;Petits enfants, c'est la dernière heure. Vous avez appris que l'Antichrist vient. Or, déjà maintenant, il y a plusieurs antichrists; par là nous reconnaissons que c'est la dernière heure.  19&nbsp;Ils sont sortis du milieu de nous, mais ils n'étaient pas des nôtres, car s'ils avaient été des nôtres, ils seraient restés avec nous. Mais cela est arrivé afin qu'il soit bien clair que tous ne sont pas des nôtres.20&nbsp;Quant à vous, vous avez l'onction donnée par celui qui est saint et vous avez toute connaissance.  21&nbsp;Si je vous ai écrit, ce n’est pas parce que vous ignorez la vérité, mais parce que vous la connaissez et qu'aucun mensonge ne provient de la vérité.  22&nbsp;Qui est menteur? N’est-ce pas celui qui nie que Jésus est le Messie? Tel est l'Antichrist, celui qui nie le Père et le Fils.  23&nbsp;Si quelqu’un nie le Fils, il n'a pas non plus le Père; [celui qui se déclare publiquement pour le Fils a aussi le Père.]24&nbsp;Pour votre part, retenez [donc] ce que vous avez entendu dès le commencement. Si ce que vous avez entendu depuis le début demeure en vous, vous demeurerez vous aussi dans le Fils et dans le Père.  25&nbsp;Et voici ce qu’il nous a lui-même promis: c’est la vie éternelle.26&nbsp;Je vous ai écrit cela par rapport à ceux qui vous égarent.  27&nbsp;Quant à vous, l'onction que vous avez reçue de Christ demeure en vous et vous n'avez pas besoin qu'on vous enseigne. Au contraire, puisque la même onction vous enseigne sur toute chose, qu'elle est véridique et dépourvue de mensonge, vous demeurerez en lui comme elle vous l’a appris.28&nbsp;Et maintenant, petits enfants, demeurez en lui. Ainsi, nous aurons de l'assurance lorsqu'il apparaîtra, nous n’aurons pas la honte d’être loin de lui lors de son retour.  29&nbsp;Si vous savez qu’il est juste, reconnaissez que toute personne qui pratique la justice est [aussi] née de lui.</span>
+<span class="ref">1 Jean 2</span>
 <span class="edition">Segond 21</span>
 </p>
 </div>
@@ -144,7 +176,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

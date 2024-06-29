@@ -3,7 +3,7 @@
     "path": "~/projects/john_letters/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "3814107700",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1719641291119.0,
@@ -16,7 +16,7 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "44:0",
+        "rmdVisualModeLocation": "2:0",
         "cursorPosition": "0,0",
         "scrollLine": "0"
     },
