@@ -1,0 +1,16 @@
+---
+title: 1jean3
+author: ''
+date: '2024-06-24'
+slug: 1jean3
+categories: []
+tags: [jean]
+params:
+  refs: 1John3
+  refs_after: Rom1:1
+  version: SG21
+---
+
+```{r echo=FALSE}
+XMINPI::bcv_list_(params$refs, params$version)
+```
