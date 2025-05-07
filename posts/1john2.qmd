@@ -1,7 +1,7 @@
 ---
 title: 1Jean2
 author: ''
-date: '2024-06-24'
+date: '2024-06-25'
 slug: 1jean2
 categories: []
 tags: [jean]
